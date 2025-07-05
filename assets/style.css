@@ -1,0 +1,111 @@
+* {
+    text-align: center;
+}
+
+body{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+}
+
+header{
+    background-image: url(/assets/images/banner.png);
+    background-size: auto;
+    width: 1440px;
+    height: 732px;
+    top: -127px;
+    border-bottom: 1px solid #33A8DB;
+}
+
+.logo {
+    width: 268px;
+    height: 268px;
+    left: 121px;
+    opacity: 1;
+}
+
+h1, h2 {
+    background: linear-gradient(#33A8DB, #1472B7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    text-decoration: overline;
+    letter-spacing: 4px;
+}
+
+header button {
+    color: #31A8DD;
+    text-transform: uppercase;
+    padding: 19px 91px ;
+    background-color: transparent;
+    border-image-source:linear-gradient( #33A8DB, #1472B7); 
+    border-image-slice: 10;
+    background-origin: border-box;
+    border-image-repeat: stretch round;
+    border-image-outset: 5px 10px;
+    background-clip: padding-box, border-box;
+    cursor: pointer;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.module {
+    width: 300px;
+    height: auto;
+    padding: 16px 127px;
+    background-color: #252525;
+    box-shadow: -2px 6px 4px 0px #00000066 inset;
+    border: 1px solid #33A8DB;
+    border-radius: 57px; 
+}
+
+.modules-list {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+
+#transform-world {
+    background-image: url('/assets/images/woman-code.png');
+    width: 1440px;
+    height:300px ;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 70px;    
+    margin-bottom: 60px;
+    overflow: auto;
+    border: 1px solid #33A8DB;
+    
+}
+
+#transform-world  p {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 900;
+    font-size: 40px;
+    width: 244px;
+    text-transform: lowercase;
+    text-shadow: 3px 3px 1px #33A8DB;
+}
+
+footer {
+    background: linear-gradient(#33A8DB00, #33A8DB33);
+    border-top:  1px solid #31A8DD;
+    padding-bottom: 20px;
+}
+
+footer a {
+    text-decoration:none;
+    color: #31A8DD;
+    font-weight:bold;
+}
+
+footer img {
+    margin-top: 20px;
+    
+}
